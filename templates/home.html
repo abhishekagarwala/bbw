@@ -63,9 +63,12 @@
 	    {% include 'sidebar.html' %}
 
         <div class="tab-content">
-			<div id="home" class="tab-pane fade main-panel in active">
+			<div id="home" class="tab-pane fade main-panel">
 				{% include 'dashboard.html' %}
 			</div>
+            <div id="calc" class="tab-pane fade main-panel in active">
+                {% include 'calculator.html' %}
+            </div>
 		</div>
 
         <footer class="footer">
