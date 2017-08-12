@@ -20,7 +20,3 @@ DATABASES = {
         'PORT': '5432',
         }
 }
-
-# ##### APPLICATION CONFIGURATION #########################
-
-INSTALLED_APPS = DEFAULT_APPS
